@@ -5,7 +5,7 @@ sonarr:
     include:
     - template: sonarr-quality-definition-series
     - template: sonarr-quality-definition-anime
-    - config: sonarr-all-cf.yml # Import every single CF from Trash Guides (optional)
+    - config: sonarr-all-cf.yml # Imports every single CF from Trash Guides (optional)
     - config: sonarr.yml
 
 radarr:
@@ -14,5 +14,5 @@ radarr:
     api_key: !secret radarr_api_key # Your Radarr API key
     include:
     - template: radarr-quality-definition-movie
-    - config: radarr-all-cf.yml # Import every single CF from Trash Guides (optional)
+    - config: radarr-all-cf.yml # Imports every single CF from Trash Guides (optional)
     - config: radarr.yml
