@@ -1,18 +1,18 @@
 sonarr:
   sonarr:
-    base_url: !secret sonarr_url
-    api_key: !secret sonarr_api_key
+    base_url: !secret sonarr_url # Your Sonarr base URL
+    api_key: !secret sonarr_api_key # Your Sonarr API key
     include:
     - template: sonarr-quality-definition-series
     - template: sonarr-quality-definition-anime
-    - config: sonarr-all-cf.yml # Import every single CF from Trash Guides
+    - config: sonarr-all-cf.yml # Import every single CF from Trash Guides (optional)
     - config: sonarr.yml
 
 radarr:
   radarr:
-    base_url: !secret radarr_url
-    api_key: !secret radarr_api_key
+    base_url: !secret radarr_url # Your Radarr base URL
+    api_key: !secret radarr_api_key # Your Radarr API key
     include:
     - template: radarr-quality-definition-movie
-    - config: radarr-all-cf.yml # Import every single CF from Trash Guides
+    - config: radarr-all-cf.yml # Import every single CF from Trash Guides (optional)
     - config: radarr.yml
