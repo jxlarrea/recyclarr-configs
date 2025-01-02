@@ -14,7 +14,7 @@ quality_profiles:
       allowed: yes
       until_quality: Remux-2160p
       until_score: 10000
-    min_format_score: 0
+    min_format_score: 6000
     score_set: sqp-2-2160p
     qualities:
       - name: Remux-2160p
@@ -31,7 +31,7 @@ quality_profiles:
       allowed: yes
       until_quality: Remux-2160p
       until_score: 10000
-    min_format_score: 0
+    min_format_score: 3000
     score_set: sqp-2-2160p
     qualities:
       - name: Remux-2160p
@@ -48,7 +48,7 @@ quality_profiles:
       allowed: yes
       until_quality: Remux-1080p
       until_score: 10000
-    min_format_score: 0
+    min_format_score: 3000
     score_set: sqp-2-1080p
     qualities:
       - name: Remux-1080p
