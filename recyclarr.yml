@@ -1,0 +1,18 @@
+sonarr:
+  sonarr:
+    base_url: !secret sonarr_url
+    api_key: !secret sonarr_api_key
+    include:
+    - template: sonarr-quality-definition-series
+    - template: sonarr-quality-definition-anime
+    - config: sonarr-all-cf.yml # Import every single CF from Trash Guides
+    - config: sonarr.yml
+
+radarr:
+  radarr:
+    base_url: !secret radarr_url
+    api_key: !secret radarr_api_key
+    include:
+    - template: radarr-quality-definition-movie
+    - config: radarr-all-cf.yml # Import every single CF from Trash Guides
+    - config: radarr.yml
