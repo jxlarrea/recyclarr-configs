@@ -267,9 +267,15 @@ custom_formats:
         score: -10000
 
   # Prefer DV+HDR
+
+  - trash_ids:
+      - c53085ddbd027d9624b320627748612f # DV HDR10+
+    assign_scores_to:
+      - name: Maximum 4K/HDR
+        score: 1830
+
   - trash_ids:
       - e23edd2482476e595fb990b12e7c609c # DV HDR10
-      - c53085ddbd027d9624b320627748612f # DV HDR10+
     assign_scores_to:
       - name: Maximum 4K/HDR
         score: 1810
