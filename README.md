@@ -4,4 +4,4 @@ A set of [Recyclarr](https://github.com/recyclarr/recyclarr) configuration files
 
 This configuration creates Custom Formats and Quality Profiles (on both Sonarr and Radarr) which aims to always grab the highest quality releases with separate profiles for 4K/HDR/DV, 4K/SDR and 1080p. Uncompressed audio formats (TrueHD and DTS-MA) are also preferred. 
 
-It also imports every single Custom Format from [TRaSH Guides](https://trash-guides.info/) (with a few of exceptions) even if some of those aren't assigned to any profiles. 
+It also imports every single Custom Format from [TRaSH Guides](https://trash-guides.info/) (with a few of exceptions) even if some of those aren't assigned to any profiles. To synchronize the latest Custom formats, run the `sync.sh` script.
