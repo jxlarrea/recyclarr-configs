@@ -7,5 +7,5 @@ This configuration creates Custom Formats and Quality Profiles (on both Sonarr a
 It also imports every single Custom Format from [TRaSH Guides](https://trash-guides.info/)  (with a few of exceptions) even if some of those aren't assigned to any profiles. 
 
 ## How to Use
-- Edit `recyclarr.yml` and insert your Radarr/Sonarr instance URL and api key.
-- Run the `sync.sh` script to both pull all available Custom Formats from TRaSH GUides, and sync Recyclarr with your Sonarr and Radarr instances.
+1. Edit `recyclarr.yml` and insert your Radarr/Sonarr instance URL and api key.
+2. Run the `sync.sh` script to both pull all available Custom Formats from TRaSH GUides, and sync Recyclarr with your Sonarr and Radarr instances.
