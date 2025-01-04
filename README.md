@@ -9,7 +9,7 @@ Uncompressed audio formats, such as TrueHD and DTS-MA, are also given preference
 
 Additionally, the configuration imports all Custom Formats from TRaSH Guides (with a few exceptions), even if some are not directly assigned to any profiles.
 
-# How to Use
+## How to Use
 
 **Edit the Configuration File**
 
