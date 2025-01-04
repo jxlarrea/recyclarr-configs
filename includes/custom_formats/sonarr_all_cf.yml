@@ -1,14 +1,14 @@
-# Updated on custom_formats:
+custom_formats:
     - trash_ids:
 
           # [No Category]
           - 290078c8b266272a5cc8e251b5e2eb0b # 1080p
           - 1bef6c151fa35093015b0bfef18279e5 # 2160p
           - c99279ee27a154c2f20d1d505cc99e25 # 720p
-          - 6f808933a71bd9666531610cb8c059cc # BR-DISK (BTN)
-          - 5d9fd1b1e06cd8a475462f40214b7df6 # FLUX
-          - 4a20cfb76b5f92a8ca22b894b32e71be # Multi-Episode
-          - e0c1a67f23908a55b6ae9834e8ed6727 # Single Episode
+#          - 6f808933a71bd9666531610cb8c059cc # BR-DISK (BTN)
+#          - 5d9fd1b1e06cd8a475462f40214b7df6 # FLUX
+#          - 4a20cfb76b5f92a8ca22b894b32e71be # Multi-Episode
+#          - e0c1a67f23908a55b6ae9834e8ed6727 # Single Episode
 
           # Anime Misc
           - d2d7b8a9d39413da5f44054080e028a3 # v0
@@ -167,11 +167,11 @@
           - d84935abd3f8556dcd51d4f27e22d0a6 # WEB Tier 03
 
           # Language profiles
-          - ed51973a811f51985f14e2f6f290e47a # German DL
+#          - ed51973a811f51985f14e2f6f290e47a # German DL
           - 69aa1e159f97d860440b04cd6d590c4f # Language: Not English
-          - 322fca6f8f3694acc1401ddb530fd33d # Language: Not French
+#          - 322fca6f8f3694acc1401ddb530fd33d # Language: Not French
           - ae575f95ab639ba5d15f663bf019e3e8 # Language: Not Original
-          - 10e77b96ae4770a7de645a91a53ce29a # Language: Original + French
+#          - 10e77b96ae4770a7de645a91a53ce29a # Language: Original + French
 
           # Misc Streaming Services
           - e6e299075e22ac8f541f722254c8350a # AUBC
@@ -185,24 +185,24 @@
 
           # Miscellaneous
           - 32b367365729d530ca1c124a0b180c64 # Bad Dual Groups
-          - ef4963043b0987f8485bc9106f16db38 # DV (Disk)
-          - 9b27ab6498ec0f31a3353992e19434ca # DV (WEBDL)
-          - 385e9e8581d33133c3961bdcdeffb7b4 # DV HDR10+ Boost
-          - d7c747094a7c65f4c2de083c24899e8b # FreeLeech
-          - 0dad0a507451acddd754fe6dc3a7f5e7 # HDR10+ Boost
+#          - ef4963043b0987f8485bc9106f16db38 # DV (Disk)
+#          - 9b27ab6498ec0f31a3353992e19434ca # DV (WEBDL)
+#          - 385e9e8581d33133c3961bdcdeffb7b4 # DV HDR10+ Boost
+#          - d7c747094a7c65f4c2de083c24899e8b # FreeLeech
+#          - 0dad0a507451acddd754fe6dc3a7f5e7 # HDR10+ Boost
           - 1bd69272e23c5e6c5b1d6c8a36fce95e # HFR
           - 5ab46ff851b76c337e13e81a4353875f # INTERNAL
           - 4aee45b0868229c4fbd8bad3e315f1d0 # MPEG2
           - 7ba05c6e0e14e793538174c679126996 # MULTi
           - 82d40da2bc6923f41e14394075dd4b03 # No-RlsGroup
-          - e1a997ddb54e3ecbfe06341ad323c458 # Obfuscated
+#          - e1a997ddb54e3ecbfe06341ad323c458 # Obfuscated
           - eb3d5cc0a2be0db205fb823640db6a3c # Repack v2
           - 44e7c4de10ae50265753082e5dc76047 # Repack v3
           - ec8fa7296b64e8cd390a1600981f3923 # Repack/Proper
           - 06d66ab109d4d2eddb2794d21526d140 # Retags
           - 1b3994c551cbb92a2c781af061f4ab44 # Scene
           - 2016d1676f5ee13a5b7257ff86ac9a93 # SDR
-          - 83304f261cf516bb208c18c54c0adf97 # SDR (no WEBDL)
+#          - 83304f261cf516bb208c18c54c0adf97 # SDR (no WEBDL)
           - 3bc5f395426614e155e585a2f056cdf1 # Season Pack
           - 7470a681e6205243983c4410ee4c920f # VC-1
           - 90501962793d580d011511155c97e4e5 # VP9
@@ -212,8 +212,8 @@
           - 041d90b435ebd773271cea047a457a6a # x266
 
           # Optional Streaming Services
-          - 43b3cf48cb385cd3eac608ee6bca7f09 # UHD Streaming Boost
-          - d2d299244a92b8a52d4921ce3897a256 # UHD Streaming Cut
+#          - 43b3cf48cb385cd3eac608ee6bca7f09 # UHD Streaming Boost
+#          - d2d299244a92b8a52d4921ce3897a256 # UHD Streaming Cut
 
           # Series Versions
           - 3a4127d8aa781b44120d907f2cd62627 # Hybrid

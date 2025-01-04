@@ -1,4 +1,5 @@
 #!/bin/bash
 
-./includes/custom_formats/update.sh
+cd ./includes/custom_formats
+./update.sh
 recyclarr sync

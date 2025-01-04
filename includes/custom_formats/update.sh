@@ -31,7 +31,7 @@ while IFS= read -r line; do
     # Skip the line if it becomes empty after cleaning
     [[ -z "$cleaned_line" ]] && continue
     arrRadarr+=("$cleaned_line")
-done < "radarr_exclusions.txt"
+done < "./radarr_exclusions.txt"
 
 # Read unneeded Sonarr custom formats from an external file, ignoring comments and trimming whitespace
 declare -a arrSonarr=()
@@ -43,7 +43,7 @@ while IFS= read -r line; do
     # Skip the line if it becomes empty after cleaning
     [[ -z "$cleaned_line" ]] && continue
     arrSonarr+=("$cleaned_line")
-done < "sonarr_exclusions.txt"
+done < "./sonarr_exclusions.txt"
 
 # Comment out unneeded custom formats
 echo "Commenting out custom formats..."
