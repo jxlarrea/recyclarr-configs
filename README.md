@@ -10,10 +10,13 @@ Uncompressed audio formats, such as TrueHD and DTS-MA, are also given preference
 Additionally, the configuration imports all Custom Formats from TRaSH Guides (with a few exceptions), even if some are not directly assigned to any profiles.
 
 # How to Use
+
 **Edit the Configuration File**
+
 Open `recyclarr.yml` and add the URL and API key for your Radarr and Sonarr instances.
 
 **Run the Sync Script**
+
 Execute the `sync.sh` script to:
 
 1. Pull all available Custom Formats from TRaSH Guides.
