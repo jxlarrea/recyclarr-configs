@@ -4,7 +4,7 @@ A comprehensive set of [Recyclarr](https://github.com/recyclarr/recyclarr) files
 - 4K/HDR/DV
 - 4K/SDR
 - 1080p
-- 
+  
 Uncompressed audio formats, such as TrueHD and DTS-MA, are also given preference to ensure premium sound quality.
 
 Additionally, the configuration imports all Custom Formats from TRaSH Guides (with a few exceptions), even if some are not directly assigned to any profiles.
