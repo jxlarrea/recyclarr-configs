@@ -8,4 +8,4 @@ It also imports every single Custom Format from [TRaSH Guides](https://trash-gui
 
 ## How to Use
 1. Edit `recyclarr.yml` and insert your Radarr/Sonarr instance URL and api key.
-2. Run the `sync.sh` script to both pull all available Custom Formats from TRaSH GUides, and sync Recyclarr with your Sonarr and Radarr instances.
+2. Run the `sync.sh` script to both pull all available Custom Formats from TRaSH GUides, and sync Recyclarr with your Sonarr and Radarr instances. Make sure that `sync.sh` is executable with `chmod +x sync.sh`.
