@@ -17,4 +17,6 @@ fi
 
 echo "Running 'recyclarr sync'..."
 
-recyclarr sync
+LOCATION="$(which recyclarr)"
+CMD="$LOCATION sync"
+eval "$CMD"
