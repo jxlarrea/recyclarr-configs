@@ -1,25 +1,25 @@
                # [No Category]
-                "5153ec7413d9dae44e24275589b5e944" # BHDStudio
-                "e098247bc6652dd88c76644b275260ed" # FLUX
-                "ff5bc9e8ce91d46c997ca3ac6994d6f8" # FraMeSToR
-                "7a0d1ad358fee9f5b074af3ef3f9d9ef" # hallowed
-                "8cd3ac70db7ac318cf9a0e01333940a4" # SiC
+                5153ec7413d9dae44e24275589b5e944 # BHDStudio
+                e098247bc6652dd88c76644b275260ed # FLUX
+                ff5bc9e8ce91d46c997ca3ac6994d6f8 # FraMeSToR
+                7a0d1ad358fee9f5b074af3ef3f9d9ef # hallowed
+                8cd3ac70db7ac318cf9a0e01333940a4 # SiC
                 # German Miscellaneous
-                "3bc8df3a71baaac60a31ef696ea72d36" # German 1080p Booster
-                "cc7b1e64e2513a6a271090cdfafaeb55" # German 2160p Booster
-                "263943bc5d99550c68aad0c4278ba1c7" # German LQ
-                "03c430f326f10a27a9739b8bc83c30e4" # German Microsized
+                3bc8df3a71baaac60a31ef696ea72d36 # German 1080p Booster
+                cc7b1e64e2513a6a271090cdfafaeb55 # German 2160p Booster
+                263943bc5d99550c68aad0c4278ba1c7 # German LQ
+                03c430f326f10a27a9739b8bc83c30e4 # German Microsized
                 # Language Profiles
-                "86bc3115eb4e9873ac96904a4a68e19e" # German
-                "f845be10da4f442654c13e1f2c3d6cd5" # German DL
-                "6aad77771dabe9d3e9d7be86f310b867" # German DL (undefined)
-                "533f782474f0819643c2ec0c1eeeb0ac" # Language: Not French
-                "0542a48746585dc4444bbbb8a6bdf6ea" # Language: Original + French
+                86bc3115eb4e9873ac96904a4a68e19e # German
+                f845be10da4f442654c13e1f2c3d6cd5 # German DL
+                6aad77771dabe9d3e9d7be86f310b867 # German DL (undefined)
+                533f782474f0819643c2ec0c1eeeb0ac # Language: Not French
+                0542a48746585dc4444bbbb8a6bdf6ea # Language: Original + French
                 # Miscellaneous
-                "f700d29429c023a5734505e77daeaea7" # DV (Disk)
-                "923b6abef9b17f937fab56cfcf89e1f1" # DV (WEBDL)
-                "55a5b50cb416dea5a50c4955896217ab" # DV HDR10+ Boost
-                "0d91270a7255a1e388fa85e959f359d8" # FreeLeech
-                "b17886cb4158d9fea189859409975758" # HDR10+ Boost
-                "7357cf5161efbf8c4d5d0c30b4815ee2" # Obfuscated
-                "25c12f78430a3a23413652cbd1d48d77" # SDR (no WEBDL)
+                f700d29429c023a5734505e77daeaea7 # DV (Disk)
+                923b6abef9b17f937fab56cfcf89e1f1 # DV (WEBDL)
+                55a5b50cb416dea5a50c4955896217ab # DV HDR10+ Boost
+                0d91270a7255a1e388fa85e959f359d8 # FreeLeech
+                b17886cb4158d9fea189859409975758 # HDR10+ Boost
+                7357cf5161efbf8c4d5d0c30b4815ee2 # Obfuscated
+                25c12f78430a3a23413652cbd1d48d77 # SDR (no WEBDL)
