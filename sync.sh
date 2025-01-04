@@ -1,4 +1,4 @@
 #!/bin/bash
 
-./includes/update-cf.sh
+./includes/custom_formats/update.sh
 recyclarr sync
