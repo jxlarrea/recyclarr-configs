@@ -6,6 +6,7 @@ SUBSCRIPT_DIR="$SCRIPT_DIR/includes/custom_formats"
 SUBSCRIPT="$SUBSCRIPT_DIR/update.sh"
 
 if [[ -f "$SUBSCRIPT" ]]; then
+    chmod +x "$SUBSCRIPT"
     echo "Running subscript: $SUBSCRIPT"
     cd "$SUBSCRIPT_DIR"
     bash "$SUBSCRIPT"

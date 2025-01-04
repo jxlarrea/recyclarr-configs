@@ -61,8 +61,8 @@ for i in "${arrSonarr[@]}"; do
     sed -e "/$escaped_id/ s/^#*/#/" -i sonarr_new_cf.yml
 done
 
-sed "1s/^/# $(date '+%Y-%m-%d %H:%M:%S')\n\n/" -i radarr_new_cf.yml
-sed "1s/^/# $(date '+%Y-%m-%d %H:%M:%S')\n\n/" -i sonarr_all_cf.yml
+#sed "1s/^/# $(date '+%Y-%m-%d %H:%M:%S')\n\n/" -i radarr_new_cf.yml
+#sed "1s/^/# $(date '+%Y-%m-%d %H:%M:%S')\n\n/" -i sonarr_all_cf.yml
 
 mv radarr_new_cf.yml radarr_all_cf.yml
 mv sonarr_new_cf.yml sonarr_all_cf.yml
