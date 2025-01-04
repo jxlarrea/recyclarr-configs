@@ -1,15 +1,24 @@
 #!/bin/bash
 
+LOCATION="$(which recyclarr)"
+
 # Removing old file
 echo "Deleting old file..."
 rm -f radarr_new_cf.yml
 rm -f sonarr_new_cf.yml
 echo "Done."
 
+
+
 # Download latest custom formats from Trash Guides
 echo "Downloading latest Custom Formats..."
-recyclarr list custom-formats radarr --raw >> radarr_new_cf.yml
-recyclarr list custom-formats sonarr --raw >> sonarr_new_cf.yml
+
+CMD="$LOCATION list custom-formats radarr --raw >> radarr_new_cf.yml"
+eval "$CMD"
+
+CMD="$LOCATION list custom-formats sonarr --raw >> sonarr_new_cf.yml"
+eval "$CMD"
+
 echo "Done."
 
 # Fix formatting
