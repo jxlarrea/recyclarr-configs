@@ -18,7 +18,7 @@ sed -e '/^Muxers)/ s/^#*/#/' -i radarr_new_cf.yml
 sed -e '/^Muxers)/ s/^#*/#/' -i sonarr_new_cf.yml
 
 sed '1i custom_formats:\n    - trash_ids:\n' -i radarr_new_cf.yml
-sed '1i # Updated on custom_formats:\n    - trash_ids:\n' -i sonarr_new_cf.yml
+sed '1i custom_formats:\n    - trash_ids:\n' -i sonarr_new_cf.yml
 echo "Done."
 
 # Read unneeded custom formats from an external file, ignoring comments and trimming whitespace
