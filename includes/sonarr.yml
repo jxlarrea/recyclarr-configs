@@ -15,7 +15,7 @@ quality_profiles:
       until_quality: Bluray-2160p Remux
       until_score: 10000
     min_format_score: 3000 # Adjust according to your preferences
-    score_set: sqp-2-2160p
+    score_set: default
     qualities:
       - name: Bluray-2160p Remux
       - name: Bluray-2160p
@@ -32,7 +32,7 @@ quality_profiles:
       until_quality: Bluray-2160p Remux
       until_score: 10000
     min_format_score: 1200 # Adjust according to your preferences
-    score_set: sqp-2-2160p
+    score_set: default
     qualities:
       - name: Bluray-2160p Remux
       - name: Bluray-2160p
@@ -49,15 +49,14 @@ quality_profiles:
       until_quality: Bluray-1080p Remux
       until_score: 10000
     min_format_score: 1200 # Adjust according to your preferences
-    score_set: sqp-2-1080p
+    score_set: default
     qualities:
       - name: Bluray-1080p Remux
       - name: Bluray-1080p
       - name: Web 1080p
         qualities:
           - WEBRip-1080p
-          - WEBDL-1080p     
- 
+          - WEBDL-1080p
 
   - name: Anime
     reset_unmatched_scores:
