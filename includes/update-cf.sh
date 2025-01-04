@@ -18,7 +18,7 @@ sed -e '/^Muxers)/ s/^#*/#/' -i radarr_new_cf.yml
 sed -e '/^Muxers)/ s/^#*/#/' -i sonarr_new_cf.yml
 
 sed '1i custom_formats:\n    - trash_ids:\n' -i radarr_new_cf.yml
-sed '1i custom_formats:\n    - trash_ids:\n' -i sonarr_new_cf.yml
+sed '1i # Updated on custom_formats:\n    - trash_ids:\n' -i sonarr_new_cf.yml
 echo "Done."
 
 # Read unneeded custom formats from an external file, ignoring comments and trimming whitespace
@@ -62,6 +62,9 @@ for i in "${arrSonarr[@]}"; do
     echo $escaped_id
     sed -e "/$escaped_id/ s/^#*/#/" -i sonarr_new_cf.yml
 done
+
+sed "1s/^/# $(date '+%Y-%m-%d %H:%M:%S')\n\n/" -i radarr_new_cf.yml
+sed "1s/^/# $(date '+%Y-%m-%d %H:%M:%S')\n\n/" -i sonarr_all_cf.yml
 
 mv radarr_new_cf.yml radarr_all_cf.yml
 mv sonarr_new_cf.yml sonarr_all_cf.yml
