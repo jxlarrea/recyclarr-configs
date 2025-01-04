@@ -30,6 +30,7 @@ while IFS= read -r line; do
     # Skip the line if it becomes empty after cleaning
     [[ -z "$cleaned_line" ]] && continue
     arrRadarr+=("$cleaned_line")
+done < "radarr-all-cf-exclusions.txt"
 
 # Comment out unneeded custom formats
 echo "Commenting out uneeded Radarr custom formats..."
