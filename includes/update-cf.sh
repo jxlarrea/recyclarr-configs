@@ -51,15 +51,14 @@ for i in "${arrRadarr[@]}"; do
     # Escape special characters in the format ID
     escaped_id=$(echo "$i" | sed 's/[\/&]/\\&/g')
     # Comment out the line matching the format ID
-    echo $escaped_id
     sed -e "/$escaped_id/ s/^#*/#/" -i radarr_new_cf.yml
 done
 
+echo "Commenting out uneeded Sonarr custom formats..."
 for i in "${arrSonarr[@]}"; do
     # Escape special characters in the format ID
     escaped_id=$(echo "$i" | sed 's/[\/&]/\\&/g')
-    # Comment out the line matching the format ID
-    echo $escaped_id
+    # Comment out the line matching the format ID  
     sed -e "/$escaped_id/ s/^#*/#/" -i sonarr_new_cf.yml
 done
 
