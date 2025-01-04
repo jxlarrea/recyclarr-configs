@@ -46,7 +46,7 @@ while IFS= read -r line; do
 done < "sonarr_exclusions.txt"
 
 # Comment out unneeded custom formats
-echo "Commenting out uneeded Radarr custom formats..."
+echo "Commenting out custom formats..."
 for i in "${arrRadarr[@]}"; do
     # Escape special characters in the format ID
     escaped_id=$(echo "$i" | sed 's/[\/&]/\\&/g')
@@ -54,7 +54,6 @@ for i in "${arrRadarr[@]}"; do
     sed -e "/$escaped_id/ s/^#*/#/" -i radarr_new_cf.yml
 done
 
-echo "Commenting out uneeded Sonarr custom formats..."
 for i in "${arrSonarr[@]}"; do
     # Escape special characters in the format ID
     escaped_id=$(echo "$i" | sed 's/[\/&]/\\&/g')
