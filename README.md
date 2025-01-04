@@ -17,7 +17,7 @@ Open `recyclarr.yml` and add the URL and API key for your Radarr and Sonarr inst
 
 **Run the Sync Script**
 
-Execute the `sync.sh` script to:
+Run the `sync.sh` script to:
 
 1. Pull all available Custom Formats from TRaSH Guides.
 2. Sync Recyclarr with your Sonarr and Radarr setups.
