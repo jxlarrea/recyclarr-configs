@@ -36,7 +36,9 @@ done < "radarr-all-cf-exclusions.txt"
 # Comment out unneeded custom formats
 echo "Commenting out uneeded Radarr custom formats..."
 for i in "${arrRadarr[@]}"; do
-   echo "Radarr: $i"
-   sed -e "/$i/ s/^#*/#/" -i radarr-new-cf.yml
+    # Escape special characters in the format ID
+    escaped_id=$(echo "$i" | sed 's/[\/&]/\\&/g')
+    # Comment out the line matching the format ID
+    sed -i -e "/$escaped_id/ s/^#*/#/" radarr-new-cf.yml
 done
 echo "Done."
