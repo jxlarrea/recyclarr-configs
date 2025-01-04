@@ -20,14 +20,16 @@ sed '1i custom_formats:\n    - trash_ids:\n' -i radarr-new-cf.yml
 sed '1i custom_formats:\n    - trash_ids:\n' -i sonarr-new-cf.yml
 echo "Done."
 
+# Read unneeded Radarr custom formats from an external file, ignoring comments and trimming whitespace
 declare -a arrRadarr=()
 while IFS= read -r line; do
-    # Skip lines that are comments or empty
+    # Skip full-line comments and empty lines
     [[ "$line" =~ ^#.*$ || -z "$line" ]] && continue
-    # Trim whitespace from the line and add it to the array
-    trimmed_line=$(echo "$line" | xargs)
-    arrRadarr+=("$trimmed_line")
-done < "radarr-all-cf-exclusions.txt"
+    # Remove inline comments and trim whitespace
+    cleaned_line=$(echo "$line" | sed -e 's/#.*//' -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')
+    # Skip the line if it becomes empty after cleaning
+    [[ -z "$cleaned_line" ]] && continue
+    arrRadarr+=("$cleaned_line")
 
 # Comment out unneeded custom formats
 echo "Commenting out uneeded Radarr custom formats..."
