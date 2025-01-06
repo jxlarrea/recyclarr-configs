@@ -30,7 +30,7 @@ chmod +x sync.sh
 
 ## Ensuring Regular Updates
 
-To maintain the most current version of all Custom Formats, it is recommended to run the `sync.sh` script daily. This can be automated by configuring a cron job using the `crontab -e` command. Make sure that your crontab file includes the `PATH` environment variable, as shown below:
+To maintain the most current version of all Custom Formats, it is recommended to run the `sync.sh` script daily. This can be automated by configuring a cron job using the `crontab -e` command. Make sure that your crontab file includes the `PATH` environment variable. The example below will run `sync.sh` at 8:00 AM every day.
 
 ```
 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
