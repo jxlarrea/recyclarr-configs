@@ -99,6 +99,11 @@ custom_formats:
       - name: Maximum 1080p
       - name: Optimized 4k
 
+  - trash_ids:
+      - 9170d55c319f4fe40da8711ba9d8050d # x265
+    assign_scores_to:
+      - name: Optimized 4k
+
   # Audio
 
   - trash_ids:
@@ -111,7 +116,7 @@ custom_formats:
       - name: Maximum 1080p
         score: 5000
       - name: Optimized 4k
-        score: -300
+        score: -10000
 
   - trash_ids:
       - 3cafb66171b47f226146a0770576870f # TrueHD
@@ -123,7 +128,7 @@ custom_formats:
       - name: Maximum 1080p
         score: 4000
       - name: Optimized 4k
-        score: -300
+        score: -10000
 
   - trash_ids:
       - dcf3ec6938fa32445f590a4da84256cd # DTS-HD MA
@@ -135,7 +140,7 @@ custom_formats:
       - name: Maximum 1080p
         score: 3900
       - name: Optimized 4k
-        score: -300
+        score: -10000
 
   - trash_ids:
       - 1af239278386be2919e1bcee0bde047e # DD+ ATMOS
