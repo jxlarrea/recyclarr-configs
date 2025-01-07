@@ -395,7 +395,7 @@ custom_formats:
       - name: Optimized 4k
         score: 1830
       - name: Optimized 1080p
-        score: 2000
+        score: -10000
 
   - trash_ids:
       - e23edd2482476e595fb990b12e7c609c # DV HDR10
@@ -405,7 +405,7 @@ custom_formats:
       - name: Optimized 4k
         score: 1810
       - name: Optimized 1080p
-        score: 1900
+        score: -10000
 
   # Prefer DV
   - trash_ids:
@@ -416,7 +416,7 @@ custom_formats:
       - name: Optimized 4k
         score: 1805
       - name: Optimized 1080p
-        score: 1800
+        score: -10000
 
   # DV / HDR
   - trash_ids:
@@ -431,7 +431,7 @@ custom_formats:
       - name: Optimized 4k
         score: 1500
       - name: Optimized 1080p
-        score: 1700
+        score: -10000
 
   # Censorship
   - trash_ids:
