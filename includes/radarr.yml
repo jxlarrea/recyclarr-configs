@@ -369,6 +369,13 @@ custom_formats:
       - name: Optimized 1080p
 
   - trash_ids:
+      - a5d148168c4506b55cf53984107c396e # 10bit
+    assign_scores_to:
+      - name: Optimized 1080p
+        score: -10000
+
+
+  - trash_ids:
       - 90a6f9a284dff5103f6346090e6280c8 # LQ
       - e204b80c87be9497a8a6eaff48f72905 # LQ (Release Title)
     assign_scores_to:
