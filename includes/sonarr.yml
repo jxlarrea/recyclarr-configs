@@ -268,7 +268,7 @@ custom_formats:
         score: 400
 
   - trash_ids:
-      - 5964f2a8b3be407d083498e4459d05d0 # DTS X
+      - 9d00418ba386a083fbf4d58235fc37ef # DTS X
     assign_scores_to:
       - name: Maximum 4K/HDR
         score: 300
