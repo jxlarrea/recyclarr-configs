@@ -287,14 +287,20 @@ custom_formats:
       - 0a3f082873eb454bde444150b70253cc # Extras
       - e6886871085226c3da1830830146846c # Generated Dynamic HDR
       - d6e9318c875905d6cfb5bee961afcea9 # Language: Not Original
-      - 90a6f9a284dff5103f6346090e6280c8 # LQ
-      - e204b80c87be9497a8a6eaff48f72905 # LQ (Release Title)
       - bfd8eb01832d646a0a89c4deb46f8564 # Upscaled
     assign_scores_to:
       - name: Maximum 4K/HDR
       - name: Maximum 4K/SDR
       - name: Maximum 1080p
       - name: Optimized 4k
+
+  - trash_ids:
+      - 90a6f9a284dff5103f6346090e6280c8 # LQ
+      - e204b80c87be9497a8a6eaff48f72905 # LQ (Release Title)
+    assign_scores_to:
+      - name: Maximum 4K/HDR
+      - name: Maximum 4K/SDR
+      - name: Maximum 1080p
 
   # Unwanted Maximum
   - trash_ids:
