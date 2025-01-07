@@ -60,6 +60,24 @@ quality_profiles:
         qualities:
           - WEBRip-1080p
           - WEBDL-1080p
+
+  - name: Optimized 4k
+    reset_unmatched_scores:
+      enabled: true
+    upgrade:
+      allowed: true
+      until_quality: Web 2160p
+      until_score: 10000
+    min_format_score: 0
+    score_set: sqp-1-2160p
+    qualities:
+      - name: Web 2160p
+        qualities:
+          - WEBRip-2160p
+          - WEBDL-2160p
+      - name: Bluray-2160p
+      - name: Remux-2160p
+        enabled: false
   
 custom_formats:
   # Movie Versions
@@ -79,6 +97,7 @@ custom_formats:
       - name: Maximum 4K/HDR
       - name: Maximum 4K/SDR
       - name: Maximum 1080p
+      - name: Optimized 4k
 
   # Audio
 
@@ -91,6 +110,8 @@ custom_formats:
         score: 5000
       - name: Maximum 1080p
         score: 5000
+      - name: Optimized 4k
+        score: -300
 
   - trash_ids:
       - 3cafb66171b47f226146a0770576870f # TrueHD
@@ -101,6 +122,8 @@ custom_formats:
         score: 4000
       - name: Maximum 1080p
         score: 4000
+      - name: Optimized 4k
+        score: -300
 
   - trash_ids:
       - dcf3ec6938fa32445f590a4da84256cd # DTS-HD MA
@@ -111,6 +134,8 @@ custom_formats:
         score: 3900
       - name: Maximum 1080p
         score: 3900
+      - name: Optimized 4k
+        score: -300
 
   - trash_ids:
       - 1af239278386be2919e1bcee0bde047e # DD+ ATMOS
@@ -121,6 +146,8 @@ custom_formats:
         score: 3700        
       - name: Maximum 1080p
         score: 3700
+      - name: Optimized 4k
+        score: 2000
 
   - trash_ids:
       - 8e109e50e0a0b83a5098b056e13bf6db # DTS-HD HRA
@@ -141,6 +168,8 @@ custom_formats:
         score: 3200
       - name: Maximum 1080p
         score: 3200
+      - name: Optimized 4k
+        score: 1900
 
   - trash_ids:
       - 417804f7f2c4308c1f4c5d380d4c4475 # ATMOS (undefined)
@@ -161,6 +190,8 @@ custom_formats:
         score: 1300
       - name: Maximum 1080p
         score: 1300
+      - name: Optimized 4k
+        score: 1800
 
   - trash_ids:
       - f9f847ac70a0af62ea4a08280b859636 # DTS-ES
@@ -191,6 +222,8 @@ custom_formats:
         score: 750
       - name: Maximum 1080p
         score: 750
+      - name: Optimized 4k
+        score: 700
 
   # Release Groups Tiers
   - trash_ids:
@@ -204,6 +237,7 @@ custom_formats:
       - name: Maximum 4K/HDR
       - name: Maximum 4K/SDR
       - name: Maximum 1080p
+      - name: Optimized 4k
 
   - trash_ids:
       - 4d74ac4c4db0b64bff6ce0cffef99bf0 # UHD Bluray Tier 01
@@ -212,6 +246,7 @@ custom_formats:
     assign_scores_to:
       - name: Maximum 4K/HDR
       - name: Maximum 4K/SDR
+      - name: Optimized 4k
 
   - trash_ids:
       - ed27ebfef2f323e964fb1f61391bcb35 # HD Bluray Tier 01
@@ -228,6 +263,7 @@ custom_formats:
       - name: Maximum 4K/HDR
       - name: Maximum 4K/SDR
       - name: Maximum 1080p
+      - name: Optimized 4k
 
 
   # Unwanted
@@ -246,6 +282,7 @@ custom_formats:
       - name: Maximum 4K/HDR
       - name: Maximum 4K/SDR
       - name: Maximum 1080p
+      - name: Optimized 4k
 
   # Unwanted Maximum
   - trash_ids:
@@ -256,6 +293,8 @@ custom_formats:
         score: -10000
       - name: Maximum 4K/SDR
         score: -10000
+      - name: Optimized 4k
+        score: -10000
 
   - trash_ids:
       - a3e19f8f627608af0211acd02bf89735 # DV SDR
@@ -265,6 +304,8 @@ custom_formats:
     assign_scores_to:
       - name: Maximum 4K/HDR
         score: -10000
+      - name: Optimized 4k
+        score: -10000
 
   # Prefer DV+HDR
 
@@ -273,11 +314,15 @@ custom_formats:
     assign_scores_to:
       - name: Maximum 4K/HDR
         score: 1830
+      - name: Optimized 4k
+        score: 1830
 
   - trash_ids:
       - e23edd2482476e595fb990b12e7c609c # DV HDR10
     assign_scores_to:
       - name: Maximum 4K/HDR
+        score: 1810
+      - name: Optimized 4k
         score: 1810
 
   # Prefer DV
@@ -285,6 +330,8 @@ custom_formats:
       - 58d6a88f13e2db7f5059c41047876f00 # DV
     assign_scores_to:
       - name: Maximum 4K/HDR
+        score: 1805
+      - name: Optimized 4k
         score: 1805
 
   # DV / HDR
@@ -297,6 +344,8 @@ custom_formats:
     assign_scores_to:
       - name: Maximum 4K/HDR
         score: 1500
+      - name: Optimized 4k
+        score: 1500
 
   # Censorship
   - trash_ids:
@@ -307,4 +356,6 @@ custom_formats:
       - name: Maximum 4K/SDR
         score: 10
       - name: Maximum 1080p
+        score: 10
+      - name: Optimized 4k
         score: 10
