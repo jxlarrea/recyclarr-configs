@@ -3,8 +3,8 @@
 # Enabling "quality_definition" will cause trouble finding releases for Optimized 4K/1080p  
 # since the minimum quality values from Trash Guides are too high
 
-#quality_definition:
-#  type: movie
+quality_definition:
+  type: movie
 
 delete_old_custom_formats: true
 replace_existing_custom_formats: true

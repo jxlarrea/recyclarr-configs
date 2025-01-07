@@ -13,6 +13,6 @@ radarr:
     base_url: !secret radarr_url # Your Radarr base URL
     api_key: !secret radarr_api_key # Your Radarr API key
     include:
-    - template: radarr-quality-definition-movie
+    # - template: radarr-quality-definition-movie # Enabling this will cause trouble finding releases for Optimized 4K/1080p since the minimum quality values from Trash Guides are too high
     - config: custom_formats/radarr_all_cf.yml # Imports every single CF from Trash Guides (optional)
     - config: radarr.yml
