@@ -22,7 +22,7 @@ Run the `sync.sh` script to:
 1. Pull all available Custom Formats from TRaSH Guides.
 2. Sync Recyclarr with your Sonarr and Radarr setups.
 
-Ensure the script is executable by running:
+Make sure that the script is executable by running:
 
 ```
 chmod +x sync.sh
