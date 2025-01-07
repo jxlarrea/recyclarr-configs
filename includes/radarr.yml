@@ -96,6 +96,8 @@ quality_profiles:
         enabled: false
       - name: Bluray-1080p
         enabled: true
+      - name: HDTV-1080p
+        enabled: true
       - name: Web 1080p
         enabled: true
         qualities:
