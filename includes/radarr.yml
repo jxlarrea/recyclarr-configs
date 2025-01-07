@@ -264,7 +264,6 @@ custom_formats:
     assign_scores_to:
       - name: Maximum 4K/HDR
       - name: Maximum 4K/SDR
-      - name: Optimized 4k
 
   - trash_ids:
       - ed27ebfef2f323e964fb1f61391bcb35 # HD Bluray Tier 01
