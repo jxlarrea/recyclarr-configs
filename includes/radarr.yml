@@ -68,7 +68,7 @@ quality_profiles:
       allowed: true
       until_quality: Web 2160p
       until_score: 10000
-    min_format_score: 0
+    min_format_score: 1500
     score_set: sqp-1-2160p
     qualities:
       - name: Web 2160p
