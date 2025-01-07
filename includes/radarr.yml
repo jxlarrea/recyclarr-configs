@@ -143,10 +143,8 @@ custom_formats:
   - trash_ids:
       - 240770601cc226190c367ef59aba7463 # AAC
     assign_scores_to:
-      - name: Optimized 4k
-        score: 2010
       - name: Optimized 1080p
-        score: 2010
+        score: 2400
 
   - trash_ids:
       - 496f355514737f7d83bf7aa4d24f8169 # TrueHD ATMOS
@@ -201,8 +199,6 @@ custom_formats:
         score: 3700
       - name: Optimized 4k
         score: 2000
-      - name: Optimized 1080p
-        score: 2000
 
   - trash_ids:
       - 8e109e50e0a0b83a5098b056e13bf6db # DTS-HD HRA
@@ -251,7 +247,7 @@ custom_formats:
       - name: Optimized 4k
         score: 1800
       - name: Optimized 1080p
-        score: 1800
+        score: 2300
 
   - trash_ids:
       - f9f847ac70a0af62ea4a08280b859636 # DTS-ES
@@ -285,7 +281,7 @@ custom_formats:
       - name: Optimized 4k
         score: 700
       - name: Optimized 1080p
-        score: 700
+        score: 2500
 
   # Release Groups Tiers
   - trash_ids:
