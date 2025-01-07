@@ -107,6 +107,12 @@ quality_profiles:
 custom_formats:
 
   - trash_ids:
+      - dc98083864ea246d05a42df0d05f81cc # x265 (HD)
+    assign_scores_to:
+      - name: Optimized 1080p
+        score: 700
+
+  - trash_ids:
       - fb392fb0d61a010ae38e49ceaa24a1ef # 2160p      
       - b2be17d608fc88818940cd1833b0b24c # 720p
     assign_scores_to:
