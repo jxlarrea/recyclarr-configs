@@ -78,8 +78,38 @@ quality_profiles:
       - name: Bluray-2160p
       - name: Remux-2160p
         enabled: false
+
+  - name: Optimized 1080p
+    reset_unmatched_scores:
+      enabled: true
+    upgrade:
+      allowed: yes
+      until_quality: Web 1080p
+      until_score: 10000
+    min_format_score: 1500
+    score_set: sqp-1-1080p
+    qualities:
+      - name: Remux-1080p
+        enabled: true
+      - name: Bluray-1080p
+        enabled: true
+      - name: Web 1080p
+        enabled: true
+        qualities:
+          - WEBRip-1080p
+          - WEBDL-1080p
   
 custom_formats:
+
+  - trash_ids:
+      - fb392fb0d61a010ae38e49ceaa24a1ef # 2160p      
+      - b2be17d608fc88818940cd1833b0b24c # 720p
+    assign_scores_to:
+      - name: Maximum 1080p
+        score: -10000
+      - name: Optimized 1080p
+        score: -10000
+
   # Movie Versions
   - trash_ids:
       - eca37840c13c6ef2dd0262b141a5482f # 4K Remaster
@@ -98,6 +128,7 @@ custom_formats:
       - name: Maximum 4K/SDR
       - name: Maximum 1080p
       - name: Optimized 4k
+      - name: Optimized 1080p
 
   - trash_ids:
       - 9170d55c319f4fe40da8711ba9d8050d # x265
@@ -111,6 +142,8 @@ custom_formats:
     assign_scores_to:
       - name: Optimized 4k
         score: 2010
+      - name: Optimized 1080p
+        score: 2010
 
   - trash_ids:
       - 496f355514737f7d83bf7aa4d24f8169 # TrueHD ATMOS
@@ -122,6 +155,8 @@ custom_formats:
       - name: Maximum 1080p
         score: 5000
       - name: Optimized 4k
+        score: -10000
+      - name: Optimized 1080p
         score: -10000
 
   - trash_ids:
@@ -135,6 +170,8 @@ custom_formats:
         score: 4000
       - name: Optimized 4k
         score: -10000
+      - name: Optimized 1080p
+        score: -10000
 
   - trash_ids:
       - dcf3ec6938fa32445f590a4da84256cd # DTS-HD MA
@@ -146,6 +183,8 @@ custom_formats:
       - name: Maximum 1080p
         score: 3900
       - name: Optimized 4k
+        score: -10000
+      - name: Optimized 1080p
         score: -10000
 
   - trash_ids:
@@ -159,6 +198,8 @@ custom_formats:
         score: 3700
       - name: Optimized 4k
         score: 2000
+      - name: Optimized 1080p
+        score: 2000
 
   - trash_ids:
       - 8e109e50e0a0b83a5098b056e13bf6db # DTS-HD HRA
@@ -170,6 +211,7 @@ custom_formats:
       - name: Maximum 1080p
         score: 3500
 
+
   - trash_ids:
       - 2f22d89048b01681dde8afe203bf2e95 # DTS X
     assign_scores_to:
@@ -180,6 +222,8 @@ custom_formats:
       - name: Maximum 1080p
         score: 3200
       - name: Optimized 4k
+        score: 1900
+      - name: Optimized 1080p
         score: 1900
 
   - trash_ids:
@@ -202,6 +246,8 @@ custom_formats:
       - name: Maximum 1080p
         score: 1300
       - name: Optimized 4k
+        score: 1800
+      - name: Optimized 1080p
         score: 1800
 
   - trash_ids:
@@ -235,6 +281,8 @@ custom_formats:
         score: 750
       - name: Optimized 4k
         score: 700
+      - name: Optimized 1080p
+        score: 700
 
   # Release Groups Tiers
   - trash_ids:
@@ -255,6 +303,7 @@ custom_formats:
       - name: Maximum 4K/SDR
       - name: Maximum 1080p
       - name: Optimized 4k
+      - name: Optimized 1080p
 
 
   - trash_ids:
@@ -265,6 +314,7 @@ custom_formats:
       - name: Maximum 4K/HDR
       - name: Maximum 4K/SDR
       - name: Optimized 4k
+    
 
   - trash_ids:
       - ed27ebfef2f323e964fb1f61391bcb35 # HD Bluray Tier 01
@@ -272,6 +322,7 @@ custom_formats:
       - 5608c71bcebba0a5e666223bae8c9227 # HD Bluray Tier 03
     assign_scores_to:
       - name: Maximum 1080p
+      - name: Optimized 1080p
 
   # Repack / Proper
   - trash_ids:
@@ -282,6 +333,7 @@ custom_formats:
       - name: Maximum 4K/SDR
       - name: Maximum 1080p
       - name: Optimized 4k
+      - name: Optimized 1080p
 
 
   # Unwanted
@@ -299,6 +351,7 @@ custom_formats:
       - name: Maximum 4K/SDR
       - name: Maximum 1080p
       - name: Optimized 4k
+      - name: Optimized 1080p
 
   - trash_ids:
       - 90a6f9a284dff5103f6346090e6280c8 # LQ
@@ -382,4 +435,6 @@ custom_formats:
       - name: Maximum 1080p
         score: 10
       - name: Optimized 4k
+        score: 10
+      - name: Optimized 1080p
         score: 10
