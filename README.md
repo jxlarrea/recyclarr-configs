@@ -9,6 +9,8 @@ Uncompressed audio formats, such as TrueHD and DTS-MA, are also given preference
 
 Additionally, the configuration imports all Custom Formats from [TRaSH Guides](https://trash-guides.info/) (with a few exceptions), even if some are not directly assigned to any profiles.
 
+There are also two "Optimized" profiles for 4K and 1080p downloads, designed to offer a perfect balance between quality and file size.
+
 ## How to Use
 
 **Edit the Configuration File**
