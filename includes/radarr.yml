@@ -325,7 +325,7 @@ custom_formats:
       - 5608c71bcebba0a5e666223bae8c9227 # HD Bluray Tier 03
     assign_scores_to:
       - name: Maximum 1080p
-      - name: Optimized 1080p
+
 
   # Repack / Proper
   - trash_ids:
