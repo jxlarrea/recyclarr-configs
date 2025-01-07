@@ -107,6 +107,12 @@ custom_formats:
   # Audio
 
   - trash_ids:
+      - 240770601cc226190c367ef59aba7463 # AAC
+    assign_scores_to:
+      - name: Optimized 4k
+        score: 2010
+
+  - trash_ids:
       - 496f355514737f7d83bf7aa4d24f8169 # TrueHD ATMOS
     assign_scores_to:
       - name: Maximum 4K/HDR
