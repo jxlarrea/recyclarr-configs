@@ -90,7 +90,7 @@ quality_profiles:
     score_set: sqp-1-1080p
     qualities:
       - name: Remux-1080p
-        enabled: true
+        enabled: false
       - name: Bluray-1080p
         enabled: true
       - name: Web 1080p
