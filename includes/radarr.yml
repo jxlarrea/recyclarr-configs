@@ -445,7 +445,6 @@ custom_formats:
       - b974a6cd08c1066250f1f177d7aa1225 # HDR10+          
       - e61e28db95d22bedcadf030b8f156d96 # HDR
       - 2a4d9069cc1fe3242ff9bdaebed239bb # HDR (undefined)
-      - 923b6abef9b17f937fab56cfcf89e1f1 # DV (WEBDL)
     assign_scores_to:
       - name: Maximum 4K/HDR
         score: 1500
