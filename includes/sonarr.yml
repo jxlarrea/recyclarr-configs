@@ -182,7 +182,7 @@ custom_formats:
       - 0c4b99df9206d2cfac3c05ab897dd62a # HDR10Plus
     assign_scores_to:
       - name: Maximum 4K/HDR
-        score: 170
+        score: 200
       - name: Maximum 1080p
         score: 30
 
@@ -192,7 +192,7 @@ custom_formats:
 
     assign_scores_to:
       - name: Maximum 4K/HDR
-        score: 183
+        score: 360
       - name: Maximum 1080p
         score: 50
         
