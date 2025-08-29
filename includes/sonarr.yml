@@ -182,9 +182,9 @@ custom_formats:
       - 0c4b99df9206d2cfac3c05ab897dd62a # HDR10Plus
     assign_scores_to:
       - name: Maximum 4K/HDR
-        score: 1700
+        score: 170
       - name: Maximum 1080p
-        score: 300
+        score: 30
 
   - trash_ids:
       # Prefer DV Boost
@@ -192,9 +192,9 @@ custom_formats:
 
     assign_scores_to:
       - name: Maximum 4K/HDR
-        score: 1830
+        score: 183
       - name: Maximum 1080p
-        score: 500
+        score: 50
         
 
   # Repack / Proper
